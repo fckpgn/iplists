@@ -1,0 +1,4 @@
+vk.com.txt
+ok.ru.txt
+mail.ru.txt
+yandex.ru.txt
