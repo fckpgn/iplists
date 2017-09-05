@@ -10,5 +10,5 @@ TransListenAddress 192.168.77.1
 DNSPort 9053
 DNSListenAddress 192.168.77.1
 
-ExitNodes {ru}
-StrictNodes 1
+#ExitNodes {ru}
+#StrictNodes 1
