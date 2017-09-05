@@ -1,0 +1,14 @@
+# Tor configuration
+User tor
+RunAsDaemon 1
+PidFile /var/run/tor.pid
+DataDirectory /overlay/mnt/var/lib/tor
+
+AutomapHostsOnResolve 1
+TransPort 9040
+TransListenAddress 192.168.77.1
+DNSPort 9053
+DNSListenAddress 192.168.77.1
+
+ExitNodes {ru}
+StrictNodes 1
